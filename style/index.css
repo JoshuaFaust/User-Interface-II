@@ -1,1 +1,164 @@
 /* Add CSS styling here */
+
+html, body, div, span, applet, object, iframe,  
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,  
+a, abbr, acronym, address, big, cite, code,  
+del, dfn, em, img, ins, kbd, q, s, samp,  
+small, strike, strong, sub, sup, tt, var,  
+b, u, i, center,  
+dl, dt, dd, ol, ul, li,  
+fieldset, form, label, legend,  
+table, caption, tbody, tfoot, thead, tr, th, td,  
+article, aside, canvas, details, embed,  
+figure, figcaption, footer, header, hgroup,  
+menu, nav, output, ruby, section, summary,  
+time, mark, audio, video {  
+margin: 0;  
+padding: 0;  
+border: 0;  
+font-size: 100%;  
+font: inherit;  
+vertical-align: baseline;  
+}
+
+/*General Styles*/
+html{
+    font-size:62.5%;
+  }
+
+body{
+/* border: 1px solid gray; */
+background-color: darkorange;
+}
+body{
+
+}
+
+section{
+
+}
+
+h1, h2, h3, h4{
+
+}
+
+nav{
+padding:2%;
+}
+
+
+
+a{
+display:flex;
+float:right;
+flex-direction: row-reverse;
+padding: 1%;
+background-color: palevioletred;
+font-size: 1.5rem;
+
+
+}
+
+#Name{
+display:flex;
+float:left;
+font-size: 3rem;
+padding: .47%;
+text-transform: uppercase;
+}
+
+
+a:hover{
+color: turquoise;
+background-color:gray;
+}
+
+/*header section style*/
+
+.container{
+height:80vh;
+display:flex;
+justify-content:center;
+align-items:center;
+
+
+}
+
+.center{
+    font-size: 4rem;
+    color:white;
+    position:absolute;
+    top:50%;
+    left:48%;
+    transform: translate(-50%, -50%);
+}
+
+.mypic {
+    border-radius: 1rem;
+
+}
+
+.button{
+font-size: 2.5rem;
+background-color: midnightblue;
+border: .2rem solid gray;  
+border-radius: 1rem;
+color:white;
+position:absolute;
+top:58%;
+left:48%;
+transform: translate(-50%, -50%);
+padding: .5%;
+}
+
+.pic-container img{
+    border:  red;
+    border-radius: 1rem;
+
+}
+
+.row1{
+    display:flex;
+    flex-wrap:flex;
+    justify-content:space-between;
+    padding:3%;
+    text-align:center;
+    font-size: 200%;
+}
+
+.row2{
+display:flex;
+flex-wrap:flex;
+justify-content:space-between;
+padding:3%;
+text-align:center;
+font-size: 200%;
+}
+
+footer{
+   
+    display:flex;
+    justify-content:center;
+    bottom: -120rem;
+    width: 100%;
+    background-color: lavender;
+    padding:3%;
+}
+
+.conbutton{
+font-size: 2.5rem;
+background-color: rebeccapurple;
+border: .2rem solid gray;  
+border-radius: 1rem;
+color:white;
+position:absolute;
+left:50%;
+transform: translate(-50%, -50%);
+padding: .5%;
+}
+
+p{
+    font-size:3rem;
+}
+
+
