@@ -162,3 +162,67 @@ p{
 }
 
 
+@media (max-width: 800px){
+
+    .mypic{
+      
+    }
+    .center{
+        font-size: 2.5rem;
+    }
+    .row1{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .row2{
+        display:flex;
+        justify-content: space-evenly;
+    }
+ .pic-container img{
+     width: 8rem;
+     height: 8rem;
+ }
+
+}
+
+@media (max-width: 500px){
+    .mypic{
+        
+    }
+    .center{
+        font-size: 2rem;
+    }
+    .button{
+        display:flex;
+        justify-content:center;
+        width:25%;
+        font-size:1.5rem;
+    }
+
+    a{
+       font-size:1rem;
+    }
+    .pic-container p{
+        font-size: 1rem;
+    }
+    .row1{
+        display:flex;
+        justify-content: space-evenly;
+    }
+    .row2{
+        display:flex;
+        justify-content: space-evenly;
+    }
+ .pic-container img{
+     width: 5rem;
+     height: 5rem;
+ }
+ .conbutton{
+    font-size: 1.5rem;
+ }
+    .footcon{
+        display:flex;
+        justify-content: center;
+ }
+}
+
